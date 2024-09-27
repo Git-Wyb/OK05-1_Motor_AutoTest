@@ -1,0 +1,11 @@
+D:\My Project\VS Pro\OK06\OK06_Motor_Test\Motor_AutoTest\Motor_AutoTest\bin\Debug\Motor_AutoTest.exe.config
+D:\My Project\VS Pro\OK06\OK06_Motor_Test\Motor_AutoTest\Motor_AutoTest\obj\Debug\Motor_AutoTest.csprojResolveAssemblyReference.cache
+D:\My Project\VS Pro\OK06\OK06_Motor_Test\Motor_AutoTest\Motor_AutoTest\obj\Debug\Motor_AutoTest.Form1.resources
+D:\My Project\VS Pro\OK06\OK06_Motor_Test\Motor_AutoTest\Motor_AutoTest\obj\Debug\Motor_AutoTest.Properties.Resources.resources
+D:\My Project\VS Pro\OK06\OK06_Motor_Test\Motor_AutoTest\Motor_AutoTest\obj\Debug\Motor_AutoTest.csproj.GenerateResource.Cache
+D:\My Project\VS Pro\OK06\OK06_Motor_Test\Motor_AutoTest\Motor_AutoTest\bin\Debug\Motor_AutoTest.exe
+D:\My Project\VS Pro\OK06\OK06_Motor_Test\Motor_AutoTest\Motor_AutoTest\bin\Debug\Motor_AutoTest.pdb
+D:\My Project\VS Pro\OK06\OK06_Motor_Test\Motor_AutoTest\Motor_AutoTest\bin\Debug\NationalInstruments.Common.dll
+D:\My Project\VS Pro\OK06\OK06_Motor_Test\Motor_AutoTest\Motor_AutoTest\bin\Debug\NationalInstruments.VisaNS.dll
+D:\My Project\VS Pro\OK06\OK06_Motor_Test\Motor_AutoTest\Motor_AutoTest\obj\Debug\Motor_AutoTest.exe
+D:\My Project\VS Pro\OK06\OK06_Motor_Test\Motor_AutoTest\Motor_AutoTest\obj\Debug\Motor_AutoTest.pdb
