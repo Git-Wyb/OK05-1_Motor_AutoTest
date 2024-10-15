@@ -647,6 +647,8 @@ namespace Motor_AutoTest
                 relay_serport3.WaitTime(3000);
             }
             Display_BackColor("ALL", "0", 0);
+            //scan_serport2.Send_TestMode();
+            
             if (flag_temp == 0)
             {
                 timer2.Enabled = false;
@@ -940,7 +942,7 @@ namespace Motor_AutoTest
                         DP_I.BackColor = Color.Red;
                         DP_I_OKNG.BackColor = Color.Red;
                         if (value < 43) DP_DataRecord.AppendText(DateTime.Now.ToString() + " 主电机<开动作电流>检查：NG，低于最小值\r\n");
-                        else if (value > 53) DP_DataRecord.AppendText(DateTime.Now.ToString() + " 主电机<开动作电流>检查：NG，超过最大值\r\n");
+                        else if (value > 63) DP_DataRecord.AppendText(DateTime.Now.ToString() + " 主电机<开动作电流>检查：NG，超过最大值\r\n");
                     }
                     else
                     {
@@ -966,7 +968,7 @@ namespace Motor_AutoTest
                         DP_CI.BackColor = Color.Red;
                         DP_CI_OKNG.BackColor = Color.Red;
                         if (value < 43) DP_DataRecord.AppendText(DateTime.Now.ToString() + " 主电机<闭动作电流>检查：NG，低于最小值\r\n");
-                        else if (value > 53) DP_DataRecord.AppendText(DateTime.Now.ToString() + " 主电机<闭动作电流>检查：NG，超过最大值\r\n");
+                        else if (value > 63) DP_DataRecord.AppendText(DateTime.Now.ToString() + " 主电机<闭动作电流>检查：NG，超过最大值\r\n");
                     }
                     else
                     {

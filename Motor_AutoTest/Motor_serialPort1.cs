@@ -118,10 +118,10 @@ namespace Motor_AutoTest
                             curr_rxnum = 0;
                             i_vaule = center_value(6, curr_buf);
                             Form1.pform1.DP_DataRecord.AppendText(DateTime.Now.ToString() + " 读取电流原始值：" + i_vaule.ToString() + "\r\n");
-                            Form1.pform1.DP_DataRecord.AppendText(DateTime.Now.ToString() + " 电流要求最小值：43，最大值：53\r\n");
+                            Form1.pform1.DP_DataRecord.AppendText(DateTime.Now.ToString() + " 电流要求最小值：43，最大值：63\r\n");
                             if (Form1.pform1.auto_step == UART_TEST_ENUM.UART_TEST_OPEN) Form1.pform1.DP_I.Text = i_vaule.ToString();
                             else if (Form1.pform1.auto_step == UART_TEST_ENUM.UART_TEST_CLOSE) Form1.pform1.DP_CI.Text = i_vaule.ToString();
-                            if (43 <= i_vaule && i_vaule <= 53)
+                            if (43 <= i_vaule && i_vaule <= 63)
                             {
                                 Form1.pform1.flag_err = 0;
                                 if (Form1.pform1.auto_step == UART_TEST_ENUM.UART_TEST_OPEN)
@@ -148,7 +148,7 @@ namespace Motor_AutoTest
                                 else
                                 {
                                     if (i_vaule < 43) Form1.pform1.DP_DataRecord.AppendText(DateTime.Now.ToString() + " 主电机电流检查：NG  低于最小值\r\n");
-                                    else if (i_vaule > 53) Form1.pform1.DP_DataRecord.AppendText(DateTime.Now.ToString() + " 主电机电流检查：NG  超过最大值\r\n");
+                                    else if (i_vaule > 63) Form1.pform1.DP_DataRecord.AppendText(DateTime.Now.ToString() + " 主电机电流检查：NG  超过最大值\r\n");
                                 }
                             }
                         }
@@ -339,10 +339,10 @@ namespace Motor_AutoTest
                                  else Form1.pform1.Display_BackColor("STOP", "NG");
                              }*/
                             Form1.pform1.DP_DataRecord.AppendText(DateTime.Now.ToString() + " 读取电流原始值：" + curr_value.ToString() + "\r\n");
-                            Form1.pform1.DP_DataRecord.AppendText(DateTime.Now.ToString() + " 电流要求最小值：43，最大值：53\r\n");
+                            Form1.pform1.DP_DataRecord.AppendText(DateTime.Now.ToString() + " 电流要求最小值：43，最大值：63\r\n");
                             if (Form1.pform1.auto_step == UART_TEST_ENUM.UART_TEST_OPEN) Form1.pform1.DP_I.Text = curr_value.ToString();
                             else if (Form1.pform1.auto_step == UART_TEST_ENUM.UART_TEST_CLOSE) Form1.pform1.DP_CI.Text = curr_value.ToString();
-                            if (43 <= curr_value && curr_value <= 53)
+                            if (43 <= curr_value && curr_value <= 63)
                             {
                                 Form1.pform1.flag_err = 0;
                                 if (Form1.pform1.auto_step == UART_TEST_ENUM.UART_TEST_OPEN)
@@ -369,7 +369,7 @@ namespace Motor_AutoTest
                                 else
                                 {
                                     if (curr_value < 43) Form1.pform1.DP_DataRecord.AppendText(DateTime.Now.ToString() + " 主电机电流检查：NG  低于最小值\r\n");
-                                    else if (curr_value > 53) Form1.pform1.DP_DataRecord.AppendText(DateTime.Now.ToString() + " 主电机电流检查：NG  超过最大值\r\n");
+                                    else if (curr_value > 63) Form1.pform1.DP_DataRecord.AppendText(DateTime.Now.ToString() + " 主电机电流检查：NG  超过最大值\r\n");
                                 }
                             }
                             

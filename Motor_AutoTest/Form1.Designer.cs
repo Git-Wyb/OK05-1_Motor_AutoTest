@@ -589,7 +589,7 @@
             this.DP_CI_Range.ReadOnly = true;
             this.DP_CI_Range.Size = new System.Drawing.Size(100, 35);
             this.DP_CI_Range.TabIndex = 76;
-            this.DP_CI_Range.Text = "43~53";
+            this.DP_CI_Range.Text = "43~63";
             this.DP_CI_Range.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // DP_R_Range
@@ -617,7 +617,7 @@
             this.DP_I_Range.ReadOnly = true;
             this.DP_I_Range.Size = new System.Drawing.Size(100, 35);
             this.DP_I_Range.TabIndex = 74;
-            this.DP_I_Range.Text = "43~53";
+            this.DP_I_Range.Text = "43~63";
             this.DP_I_Range.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // DP_T_Range
@@ -1289,7 +1289,7 @@
             this.Controls.Add(this.DP_DataRecord);
             this.Controls.Add(this.Com_groupBox);
             this.Name = "Form1";
-            this.Text = "Motor_AutoTest Ver1.01";
+            this.Text = "Motor_AutoTest Ver1.02";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Com_groupBox.ResumeLayout(false);
